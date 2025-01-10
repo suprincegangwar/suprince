@@ -1,0 +1,6 @@
+a = bin(15)
+print(a)
+b = oct(15)
+print(b)
+c = hex(15)
+print(c)

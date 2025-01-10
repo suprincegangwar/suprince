@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Layout Example</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            position: relative;
+            width: 400px; 
+            height: 400px;
+        }
+
+        .text-box {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #8fbc8f;
+            padding: 20px;
+            border: 10px solid black;
+            width: 200px; 
+            box-sizing: border-box;
+        }
+
+        .yellow-square {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            width: 100px;
+            height: 100px;
+            border: 10px solid black;
+            background-color: yellow;
+        }
+
+        .red-square {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100px;
+            height: 100px;
+            border: 10px solid black;
+            background-color: #cd5c5c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="text-box">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In id magna pulvinar, ultricies lorem id, vehicula elit.
+        </div>
+        
+        
+        <div class="yellow-square"></div>
+
+        
+        <div class="red-square"></div>
+    </div>
+</body>
+</html>
