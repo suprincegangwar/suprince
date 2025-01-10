@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+.top-frame {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.top-frame .logo img {
+    max-height: 50px;
+}
+
+.top-frame .college-name h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.top-frame nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.top-frame nav ul li {
+    display: inline;
+}
+
+.top-frame nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.top-frame nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.middle-frame {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.middle-frame h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.middle-frame p {
+    font-size: 18px;
+    color: #555;
+}
+
+.bottom-frame {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

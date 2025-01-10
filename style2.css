@@ -1,0 +1,15 @@
+li[value="2"] {
+    color: blue;
+}
+li[value="3"] {
+    color: rgb(171, 214, 15);
+}
+* {
+    text-align: center;
+    color: rgb(132, 6, 242);
+}
+ol {
+    margin-left: -40px;
+    margin-top: -20px;
+    list-style-position: inside;
+}
